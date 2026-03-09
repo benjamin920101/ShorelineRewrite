@@ -1,4 +1,4 @@
-# ShorelineRewrite
+# BenjaminClientRewrite
 - This version has been modified to run on MioClient.
 - Baritone was removed due to conflict with Mio Crack (Support for those without money).
 
