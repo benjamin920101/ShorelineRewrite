@@ -35,6 +35,9 @@ repositories {
     maven { url "https://jitpack.io" }
     maven { url "https://impactdevelopment.github.io/maven/" }
     maven { url = "https://maven.meteordev.org/releases" }
+    flatDir {
+        dirs 'lib'
+    }
 }
 
 dependencies {
@@ -45,6 +48,9 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
     implementation(shadow("meteordevelopment:discord-ipc:1.1"))
+    modImplementation files('lib/mio.jar')
+    modImplementation files('lib/mio-loader.jar')
+    
 }
 
 processResources {
