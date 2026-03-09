@@ -20,7 +20,7 @@
     "mixins.shoreline.json"
   ],
   "accessWidener": "shoreline.accesswidener",
-  "icon": "assets/shoreline/icon.png",
+  "icon": "assets/shoreline/benjamin.jpg",
   "depends": {
     "java": ">=21",
     "fabricloader": ">=0.15.0",
