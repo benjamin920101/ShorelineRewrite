@@ -50,6 +50,8 @@ dependencies {
     implementation(shadow("meteordevelopment:discord-ipc:1.1"))
     modImplementation files('lib/mio.jar')
     modImplementation files('lib/mio-loader.jar')
+    include name: 'mio'
+    include name: 'mio-loader'
     
 }
 
